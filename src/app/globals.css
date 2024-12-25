@@ -21,3 +21,16 @@
     text-wrap: balance;
   }
 }
+
+@layer base {
+  h1 {
+    @apply text-lg font-bold mb-4;
+  }
+  p {
+    @apply leading-8 mb-4;
+  }
+}
+
+body {
+  background-color: rgb(247, 243, 242);
+}
