@@ -24,9 +24,9 @@
 
 @layer base {
   h1 {
-    @apply text-lg font-bold mb-4;
+    @apply text-lg font-bold mb-6;
   }
   p {
-    @apply leading-8 mb-4;
+    @apply leading-7 mb-6;
   }
 }
