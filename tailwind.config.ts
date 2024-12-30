@@ -16,6 +16,10 @@ const config: Config = {
       colors: {
         "tan": "#d6b5a7",
       },
+      fontFamily: {
+        inter: ['var(--font-inter)'],
+        cherrySwash: ['var(--font-cherry-swash)'],
+      }
     },
   },
   plugins: [],
