@@ -15,10 +15,11 @@ const config: Config = {
       },
       colors: {
         "tan": "#d6b5a7",
+        "rose_red": "#bb3e47",
       },
       fontFamily: {
         inter: ['var(--font-inter)'],
-        cherrySwash: ['var(--font-cherry-swash)'],
+        dynapuff: ['var(--font-dynapuff)'],
       }
     },
   },

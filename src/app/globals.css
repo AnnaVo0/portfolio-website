@@ -24,10 +24,10 @@
 
 @layer base {
   h1 {
-    @apply text-lg font-bold mb-6 font-cherrySwash;
+    @apply text-3xl text-rose_red font-bold font-dynapuff mb-6;
   }
   h2 {
-    @apply font-cherrySwash;
+    @apply font-bold text-rose_red text-lg font-dynapuff;
   }
   p {
     @apply leading-7 mb-6;

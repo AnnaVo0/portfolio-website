@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import type { Viewport } from 'next';
-import { Inter, Cherry_Swash } from "next/font/google";
+import { Inter, DynaPuff } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
@@ -9,10 +9,10 @@ const inter = Inter({
   display: 'swap',
 });
 
-const cherry_swash = Cherry_Swash({
+const dynaPuff = DynaPuff({
   subsets: ["latin"],
   weight: '400',
-  variable: '--font-cherry-swash',
+  variable: '--font-dynapuff',
   display: 'swap',
 });
 
@@ -33,7 +33,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${inter.variable} ${cherry_swash.variable} font-inter`}>{children}</body>
+      <body className={`${inter.variable} ${dynaPuff.variable} font-inter`}>{children}</body>
     </html>
   );
 }
