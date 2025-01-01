@@ -71,6 +71,24 @@ export default function App() {
                   alt="Picture of Light the Tundra's start screen"
                 />
               </Link>
+              <Link href="https://replit.com/@annieV45/Game-Jam-Light-the-Tundra" target="_blank" className="inline-block">
+                <Image
+                  className="rounded-md mb-6 mx-10 ring ring-tan hover:ring-tan/50"
+                  src="/light_the_tundra_cutscene.jpg"
+                  width={177}
+                  height={193}
+                  alt="Picture of a Light the Tundra cutscene"
+                />
+              </Link>
+              <Link href="https://replit.com/@annieV45/Game-Jam-Light-the-Tundra" target="_blank" className="inline-block">
+                <Image
+                  className="rounded-md mb-6 ring ring-tan hover:ring-tan/50"
+                  src="/light_the_tundra_gamescreen.jpg"
+                  width={177}
+                  height={193}
+                  alt="Picture of a Light the Tundra game screen"
+                />
+              </Link>
               <div id="light_the_tundra" className="flex gap-4 mb-4">
                 <h2>
                   Light the Tundra
@@ -85,13 +103,22 @@ export default function App() {
               </p>
             </div>
             <div>
-              <Link href="https://replit.com/@annieV45/Game-Jam-Light-the-Tundra" target="_blank" className="inline-block">
+              <Link href="https://replit.com/@annieV45/Collection-Style-Game-Anna-V" target="_blank" className="inline-block">
                 <Image
                   className="rounded-md mb-6 ring ring-tan hover:ring-tan/50"
                   src="/tear_catch.jpg"
                   width={150}
                   height={150}
-                  alt="Picture of me"
+                  alt="Picture of Tear Catch's start screen"
+                />
+              </Link>
+              <Link href="https://replit.com/@annieV45/Collection-Style-Game-Anna-V" target="_blank" className="inline-block">
+                <Image
+                  className="rounded-md mb-6 mx-10 ring ring-tan hover:ring-tan/50"
+                  src="/tear_catch_gamescreen.jpg"
+                  width={150}
+                  height={150}
+                  alt="Picture of Tear Catch's game screen"
                 />
               </Link>
               <div id="tear_catch" className="flex gap-4 mb-4">
@@ -110,7 +137,7 @@ export default function App() {
           </section>
           <section>
             <p className="mt-16 mb-0">
-              This website was built by me using <b>Next.js</b> and <b>Tailwind CSS</b>!
+              This website was built by me using <b>Next.js</b> and <b>Tailwind CSS</b> and deployed with <b>Vercel</b>!
             </p>
           </section>
         </main>
