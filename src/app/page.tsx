@@ -62,7 +62,7 @@ export default function App() {
           <section id="projects">
             <h1>Projects</h1>
             <div className="my-8">
-              <Link href="https://replit.com/@annieV45/Game-Jam-Light-the-Tundra" target="_blank" className="inline-block">
+              <Link href="https://github.com/AnnaVo0/light-the-tundra" target="_blank" className="inline-block">
                 <Image
                   className="rounded-md mb-6 ring ring-tan hover:ring-tan/50"
                   src="/light_the_tundra.jpg"
@@ -71,7 +71,7 @@ export default function App() {
                   alt="Picture of Light the Tundra's start screen"
                 />
               </Link>
-              <Link href="https://replit.com/@annieV45/Game-Jam-Light-the-Tundra" target="_blank" className="block lg:inline-block">
+              <Link href="https://github.com/AnnaVo0/light-the-tundra" target="_blank" className="block lg:inline-block">
                 <Image
                   className="rounded-md mb-6 lg:mx-10 ring ring-tan hover:ring-tan/50"
                   src="/light_the_tundra_cutscene.jpg"
@@ -80,7 +80,7 @@ export default function App() {
                   alt="Picture of a Light the Tundra cutscene"
                 />
               </Link>
-              <Link href="https://replit.com/@annieV45/Game-Jam-Light-the-Tundra" target="_blank" className="block lg:inline-block">
+              <Link href="https://github.com/AnnaVo0/light-the-tundra" target="_blank" className="block lg:inline-block">
                 <Image
                   className="rounded-md mb-6 ring ring-tan hover:ring-tan/50"
                   src="/light_the_tundra_gamescreen.jpg"
@@ -103,7 +103,7 @@ export default function App() {
               </p>
             </div>
             <div>
-              <Link href="https://replit.com/@annieV45/Collection-Style-Game-Anna-V" target="_blank" className="inline-block">
+              <Link href="https://github.com/AnnaVo0/tear-catch" target="_blank" className="inline-block">
                 <Image
                   className="rounded-md mb-6 ring ring-tan hover:ring-tan/50"
                   src="/tear_catch.jpg"
@@ -112,7 +112,7 @@ export default function App() {
                   alt="Picture of Tear Catch's start screen"
                 />
               </Link>
-              <Link href="https://replit.com/@annieV45/Collection-Style-Game-Anna-V" target="_blank" className="block lg:inline-block">
+              <Link href="https://github.com/AnnaVo0/tear-catch" target="_blank" className="block lg:inline-block">
                 <Image
                   className="rounded-md mb-6 lg:mx-10 ring ring-tan hover:ring-tan/50"
                   src="/tear_catch_gamescreen.jpg"
@@ -137,7 +137,7 @@ export default function App() {
           </section>
           <section>
             <p className="mt-16 mb-0">
-              This website was built by me using <b>Next.js</b> and <b>Tailwind CSS</b> and deployed with <b>Vercel</b>!
+              This website was built by me using <b>Next.js</b>, <b>React</b>, <b>HTML</b>, and <b>Tailwind CSS</b>, then deployed with <b>Vercel</b>!
             </p>
           </section>
         </main>
